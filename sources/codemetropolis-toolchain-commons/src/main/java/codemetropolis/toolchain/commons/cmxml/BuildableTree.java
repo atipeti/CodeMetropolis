@@ -132,6 +132,8 @@ public class BuildableTree {
 						break;
 						case "container": type = Type.CONTAINER;
 						break;
+						case "metro": type = Type.METRO;
+						break;
 					}
 					
 					Point position;

@@ -191,6 +191,9 @@ public class MappingController {
 			}
 		}
 		buildableStack.pop();
+		if(buildable.getType().equals(Buildable.Type.METRO)) {
+			
+		}
 		
 	}
 	
